@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #########################################################
-# Creator: GhostlyPy                                    #
+# Creator: Hifumi-Sec                                    #
 # Created: 08/07/2021                                   #
-# Project: https://github.com/GhostlyPy/chrome-install  #
+# Project: https://github.com/Hifumi-Sec/chrome-install  #
 #########################################################
 
 # Remember to make this file an executable by using: chmod +x chrome-install.sh
