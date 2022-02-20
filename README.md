@@ -1,4 +1,13 @@
 # Chrome Install
-This is a bash script that will install Google Chrome for you without the need of a browser. It also checks if Google Chrome is already installed on your system.
+This bash script will install Google Chrome for you without the need of a browser. It also checks if Google Chrome is already installed on your system.
 
-Remember to give it executable permissions using: chmod +x chrome-install.sh
+This repository is explained more in-depth in my blog post here: https://hifumi1337.github.io/installing-google-chrome-on-kali-linux-using-bash-script/
+
+## Usage
+```bash
+chmod +x chrome_install.sh
+```
+
+```bash
+./chrome_install.sh
+```

@@ -1,12 +1,11 @@
 #!/bin/bash
 
-#########################################################
-# Creator: Hifumi-Sec                                    #
-# Created: 08/07/2021                                   #
-# Project: https://github.com/Hifumi-Sec/chrome-install  #
-#########################################################
-
-# Remember to make this file an executable by using: chmod +x chrome-install.sh
+#####################################################################################################
+# Creator: Hifumi1337                                                                               #
+# Created: 08/07/2021                                                                               #
+# Project: https://github.com/Hifumi1337/chrome-install                                             #
+# Blog Post: https://hifumi1337.github.io/installing-google-chrome-on-kali-linux-using-bash-script/ #
+#####################################################################################################
 
 echo "Downloading Google Chrome..."
 
