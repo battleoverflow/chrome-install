@@ -1,15 +1,14 @@
 #!/bin/bash
 
-#####################################################################################################
-# Creator: Hifumi1337                                                                               #
-# Created: 08/07/2021                                                                               #
-# Project: https://github.com/Hifumi1337/chrome-install                                             #
-# Blog Post: https://hifumi1337.github.io/installing-google-chrome-on-kali-linux-using-bash-script/ #
-#####################################################################################################
+######################################################################################################
+# Creator: azazelm3dj3d | v1.0.2                                                                     #
+# Learn more: https://github.com/azazelm3dj3d/chrome-install                                         #
+# Blog Post: https://blog.azazelm3dj3d.com/installing-google-chrome-on-kali-linux-using-bash-script/ #
+######################################################################################################
 
 echo "Downloading Google Chrome..."
 
-# Checks to see if you already have it installed
+# Checks to see if you already have Chrom installed
 if command -v google-chrome &> /dev/null;
 then
     echo "Google Chrome is already installed"
@@ -19,7 +18,7 @@ fi
 # Creates a directory to store the .deb file
 mkdir ~/Desktop/chrome_install && cd ~/Desktop/chrome_install
 
-# Grabs the Chrome install from Google servers
+# Grabs the Chrome debian package from Google's servers
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 
 echo "Checking if you can use sudo..."
@@ -31,10 +30,10 @@ then
     exit
 fi
 
-# Installs Google package
+# Installs Google Chrome
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 
-echo "Congrats, you now have Chrome!"
+echo "Congrats, you now have Google Chrome!"
 
 echo "Version downloaded: " && google-chrome --version
 
