@@ -1,9 +1,8 @@
 #!/bin/bash
 
 ######################################################################################################
-# Creator: azazelm3dj3d | v1.0.2                                                                     #
-# Learn more: https://github.com/azazelm3dj3d/chrome-install                                         #
-# Blog Post: https://blog.azazelm3dj3d.com/installing-google-chrome-on-kali-linux-using-bash-script/ #
+# Creator: battleoverflow | v1.0.2                                                                   #
+# Learn more: https://github.com/battleoverflow/chrome-install                                       #
 ######################################################################################################
 
 echo "Downloading Google Chrome..."
